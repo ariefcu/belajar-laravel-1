@@ -24,6 +24,7 @@
           <a class="nav-link {{ Request::is('dashboard/categories*') ? 'active' : '' }}" href="/dashboard/categories">
             <span data-feather="grid"></span>
             Post Categories
+          </a>
         </li>
       </ul>
     @endcan
